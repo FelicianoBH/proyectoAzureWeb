@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		form fieldset {
+			margin-left:1%;
+			float:left;
+		}
+
+		#tercerfield {
+			margin-top:1%;
+			clear:left;
+		}
+
+
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+      	<div id="div1">
+			<label for="usuario">Usuario: </label>    
+			<input type="text" id="usuario" placeholder="Feliciano " size="20" />
+      	</div>
+      	<div id="div2">
+			<label for="fecha">Fecha Contable: </label>    
+			<input type="text" id="fecha"  readonly="readonly" size="12"/>
+      	</div>
+      	<div id="div3">
+			<label for="asiento">Asiento: </label>    
+			<input type="text" id="asiento" readonly="readonly" size="6"/>
+      	</div>
+      	<div id="div4">
+			<label for="apunte">Apunte: </label>    
+			<input type="text" id="apunte" readonly="readonly" size="6"/>
+      	</div>
+      	</fieldset>
+
+      	<fieldset>
+      	<div id="div5">
+			<label for="codigocuenta">Codigo Cuenta: </label>    
+			<input type="text" id="codigocuenta" size="12" />
+      	</div>
+		<div id="div6">
+			<label for="titulo">Titulo: </label>    
+			<input type="text" id="titulo" size="30" />
+      	</div>
+      	<div id="div7">
+			<button type="button" onclick="buscaCuenta()">Buscar</button>
+		
+			<button type="button" onclick="buscaPlan()">Plan</button>
+		
+			<button type="button" onclick="buscaAlfa()">Alfa</button>
+		</div>
+      	</fieldset>
+      	<fieldset id="tercerfield">
+      	<div id="div8">	
+      		<label for="num_concepto">Núm Concepto: </label>    
+			<input type="text" id="num_concepto" size="4" />
+		</div>
+		<div id="div9">	
+      		<label for="concepto">Texto: </label>    
+			<input type="text" id="concepto" size="30" />
+		</div>
+		<div id="div11">	
+			<button  type="button" onclick="buscaConcepto()">Busca Concepto</button>
+		</div>
+		<div id="div12">	
+      		<label for="documento">Documento: </label>    
+			<input type="text" id="documento" size="15" />
+		</div>
+		<div id="div13">	
+      		<label for="importe">Importe</label>    
+			<input type="text" id="importe" size="10" />
+		</div>
+		<div id="div4">
+			<button type="button" onclick="buscaCuenta()">Debe</button>
+		
+			<button type="button" onclick="buscaPlan()">Haber</button>
+		
+			<button type="button" onclick="buscaAlfa()">Validar</button>
+		</div>
+      	</fieldset>
+	</form>
+
+
+</body>
+</html>

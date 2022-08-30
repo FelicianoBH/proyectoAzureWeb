@@ -1,0 +1,1 @@
+<iframe id="miiframe" width="40%" height="20%" src="miprueba.php"></iframe>

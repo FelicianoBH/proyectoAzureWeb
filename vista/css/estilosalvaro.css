@@ -1,0 +1,64 @@
+ #body {
+  
+ 	min-width:1200px;
+ }
+
+
+
+	
+
+
+      #cerrarSesion {
+          color:#fff;
+          text-decoration:none;
+      }
+
+    
+
+     #crud_gral {
+
+      position:absolute;
+      top: 40px;
+      padding-left: 2%;
+      font-size: 16px;
+
+     }
+
+     #muestraContador {
+
+      position:absolute;
+      top: 700px;
+      padding-left: 25%;
+      font-size: 16px;
+
+     }
+
+     .btn:focus {
+      outline:0 !important;
+     }
+
+    #wrapper {
+
+      position:absolute;
+      top:100px;
+      padding-left:2%;
+      font-size:16px;
+    }
+
+      #box-header{
+        width: 100%;
+        height:12%;
+        color:#fff;
+        background: #679B9B;
+        padding: -20px;
+        text-align: center;
+        font-family: arial;
+        font-size: 20px;
+        padding: 2px;
+        position: absolute;
+
+      }
+
+     
+    
+  

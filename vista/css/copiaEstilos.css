@@ -1,0 +1,1248 @@
+ #body {
+  
+ 	min-width:1200px;
+ }
+
+
+ #lateral { 
+ 	cursor:pointer;
+ 	margin-left:20px;
+	position:fixed;
+	border:1px solid;
+	width:100px;
+	height:98%;
+	float:left;
+	background-color:#679B9B;
+}
+
+	#lateral-marca{
+
+		border-bottom:1px solid;
+		width:98px;
+		height:90px;
+
+	}
+
+
+ 	#lateral-marca-centrar {
+    padding-top:15px;
+		text-align:center;
+    color:white;
+	} 
+
+ 	#lateral-marca:hover {
+
+		background-color:#AACFCF;
+	} 
+
+
+
+	.lateral-opciones {
+
+		border-bottom:1px solid;
+		width:98px;
+		height:90px;
+
+	}
+
+
+ 	.lateral-opciones-centrar {
+
+ 		padding-top:15px;
+		width:98px;
+		height:98%;
+		text-align:center;
+		color:white;
+	} 
+
+
+	#lateral-marca-centrar img {
+		margin-top:5px;
+		height:50px;
+		width:70px;
+	}
+
+	#lateral-marca-centrar p  {
+
+ 		font-size:14px;
+		color:#fff;
+	}
+
+
+	.menu {
+		font-size:14px;
+	}
+	#header-0 {
+		min-width:840px;
+		height:87px;
+		margin-left:125px;
+	}
+	
+	#header-01 {
+
+
+
+		display:inline-block;
+		height:87px;
+		border-bottom:3px solid;
+		border-color:#679B9B;
+		margin:0 auto;
+	  display:grid;
+		grid-template-columns: 2fr 2fr;
+
+
+    
+	}
+
+#header-01-caja-1 img {
+
+    float:left;
+    border:2px solid #679B9B;
+    box-shadow:5px 5px #AACFCF;
+    width:110px;
+    height:75px;
+  }
+ 
+	#header-01-caja-2 img {
+    float:left;
+		border:2px solid #679B9B;
+		box-shadow:5px 5px #AACFCF;
+		width:110px;
+		height:75px;
+	}
+
+  #caja-empresa {
+    max-width: 290px;
+    max-height:75px;
+    margin-left:10px;
+    display:inline-block;
+  }
+ 
+  #empresa {
+    font-size:20px;
+    color:#679B9B;
+    max-height:75px;
+    overflow:auto;
+  }
+
+  #caja-autor {
+    max-width: 290px;
+    max-height:75px;
+    margin-left:15px;
+    display:inline-block;
+
+  }
+
+  #autor {
+    font-size:20px;
+    color:#679B9B;
+    max-height:75px;
+    overflow:auto;
+  }
+
+  #usuario {
+    font-size:20px;
+    color:#679B9B;
+    max-height:75px;
+  }
+
+	#header-conta {
+
+		width:700px;
+		margin:auto;
+		font-size:20px;
+		text-align:center;
+	}
+
+	#header-conta ul {
+
+		list-style:none;
+	}
+	
+	.header-conta-nav > li {
+
+		float:left;
+	}
+
+	.header-conta-nav li a{
+
+		background:#679B9B;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+		padding:10px 12px;
+		font-size:0.7em;
+		display:block;
+	}
+
+	.header-conta-nav li a:hover{
+
+		background-color:#AACFCF;
+	}
+
+	.header-conta-nav li ul {
+
+		display:none;
+		position:absolute;
+		min-width:100px;
+	}
+
+	.header-conta-nav li:hover >ul {
+
+		display:block;
+	}
+
+	.header-conta-nav li ul li {
+		position:relative;
+	}
+
+	.header-conta-nav li ul li ul {
+		right:-140px;
+		top:0px;
+	}
+
+	.sidenav {
+
+  		height: 92%;
+ 		width:  0;
+ 		position: fixed;
+ 		z-index: 1;
+  		/*top: 0;
+  		left: 0;*/
+  		background-color: #AACFCF;
+  		overflow-x: hidden;
+  		transition: 0.3s;
+ 		padding-top: 60px;
+ 		margin-top:10px;
+  		margin-left:122px;
+	}
+
+	.sidenav .closebtn {
+  		position: absolute;
+  		top: 25px;
+  		right: 25px;
+  		font-size: 20px;
+  		text-decoration:none;
+  		margin-left: 80px;
+	}
+
+	.sidenav ul  {
+
+		list-style:none;
+	}
+  	.sidenav ul li p {
+
+  		text-align:center;
+		font-size:20px;
+		width:175px;
+		background-color:#679B9B;
+	}
+  	.sidenav ul li p a {
+
+  		color:white;
+  		text-decoration:none;
+  	}
+
+  	#header-ficheros {
+
+  		margin-left:100px;
+  	}
+
+  #header-referencias {
+
+      
+
+    }
+
+    #input-contable{
+
+      display:inline-block;
+    }
+ 
+  #titulo-referencias {
+
+    padding:3px;
+    margin-top:10px;
+    display:inline-block;
+    margin-left:10%;
+    color:white;
+   /* width:1200px; */
+    background-color:#679B9B;
+    font-size:20px;
+  }
+
+
+
+	.sidenav i {
+		display:block;
+		margin-top:50px;
+		color:#FFF;
+		text-align:center;
+	}
+	.sidenav p {
+		display:block;
+		text-align:center;
+		color:#fff;
+		font-size:24px;
+	}
+
+  	.header-ficheros-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-ficheros-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+  	.header-ficheros-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  		}
+
+
+  	#header-usuarios {
+
+  		margin-left:100px;
+  	}
+
+   	.header-usuarios-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-usuarios-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-usuarios-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  } 		
+
+  	#header-ejercicio {
+
+  		margin-left:100px;
+  	}
+
+   	.header-ejercicio-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-ejercicio-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+  	
+  	.header-ejercicio-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  } 
+
+  	#header-tarifas {
+
+  		margin-left:100px;
+  	}
+
+   	.header-tarifas-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-tarifas-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-tarifas-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  } 		
+
+
+  	#header-familias {
+
+  		margin-left:100px;
+  	}
+
+   	.header-familias-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-familias-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-familias-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  } 		
+ 	#header-ofertas {
+
+  		margin-left:100px;
+  	}
+
+   	.header-ofertas-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-ofertas-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-ofertas-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+	#header-clientes {
+
+		width:700px;
+		margin:auto;
+		font-size:14px;
+		text-align:center;
+	}
+
+	#header-clientes ul {
+
+		list-style:none;
+	}
+	
+	.header-clientes-nav > li {
+
+		float:left;
+	}
+
+	.header-clientes-nav li a{
+
+		background:#679B9B;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+		padding:10px;
+  		font-size:14px;
+		display:block;
+		margin-left:10px;
+	}
+
+	.header-clientes-nav li a:hover{
+
+		background-color:#AACFCF;
+	}
+
+	.header-clientes-nav li ul {
+
+		display:none;
+		min-width:140px;
+	}
+
+	.header-clientes-nav li:hover >ul {
+
+		display:block;
+	}
+
+	.header-conta-nav li ul li {
+
+		position:relative;
+	}
+
+	.header-clientes-nav li ul li ul {
+		top:0px;
+	}
+
+	#header-historico-ventas {
+
+  		margin-left:100px;
+  	}
+
+   	.header-historico-ventas-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-historico-ventas-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-historico-ventas-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+
+
+
+ 	#header-ficheros-art-alm {
+
+  		margin-left:100px;
+  	}
+
+   	.header-ficheros-art-alm-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-ficheros-art-alm-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-ficheros-art-alm-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+ 	#header-traslados {
+
+  		margin-left:100px;
+  	}
+
+   	.header-traslados-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-traslados-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-traslados-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+
+ 	#header-historico {
+
+  		margin-left:100px;
+  	}
+
+   	.header-historico-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-historico-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-historico-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+
+
+
+ 	#header-inventarios {
+
+  		margin-left:100px;
+  	}
+
+   	.header-inventarios-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-inventarios-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-inventarios-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+ 	#header-faltas {
+
+  		margin-left:100px;
+  	}
+
+   	.header-faltas-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-faltas-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-faltas-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  	#header-confeccion-pedidos {
+
+  		margin-left:100px;
+  	}
+
+   	.header-confeccion-pedidos-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-confeccion-pedidos-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-confeccion-pedidos-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+  	#header-recepcion-pedidos {
+
+  		margin-left:100px;
+  	}
+
+   	.header-recepcion-pedidos-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-recepcion-pedidos-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-recepcion-pedidos-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  
+ 	#header-devolucion-provedores {
+
+  		margin-left:100px;
+  	}
+
+   	.header-devolucion-provedores-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-devolucion-provedores-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-devolucion-provedores-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+   	#header-plancontable {
+
+  		margin-left:100px;
+  	}
+
+   	.header-plancontable-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-plancontable-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-plancontable-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  
+
+   	#header-asientos {
+
+  		margin-left:100px;
+  	}
+
+   	.header-asientos-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-asientos-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-asientos-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  
+
+   	#header-extractos {
+
+  		margin-left:100px;
+  	}
+
+   	.header-extractos-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-extractos-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-extractos-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  
+   	#header-balances {
+
+  		margin-left:100px;
+  	}
+
+   	.header-balances-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-balances-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-balances-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  
+  	#header-impuestos {
+
+  		margin-left:100px;
+  	}
+
+   	.header-impuestos-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-impuestos-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-impuestos-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  
+	#header-informe-ventas {
+
+  		margin-left:100px;
+  	}
+
+   	.header-informe-ventas-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-informe-ventas-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-informe-ventas-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+  	#header-informe-clientes {
+
+  		margin-left:100px;
+  	}
+
+   	.header-informe-clientes-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-informe-clientes-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-informe-clientes-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+  	#header-informe-compras {
+
+  		margin-left:100px;
+  	}
+
+   	.header-informe-compras-nav {
+
+		display:block;
+
+  		list-style:none;
+
+  	}
+  	.header-informe-compras-nav li a {
+
+  		display:inline-block;
+  		float:left;
+  		margin-left:20px;
+  		text-decoration:none;
+  		color:#fff;
+  		padding:10px;
+  		font-size:18px;
+  		background-color:#679B9B;
+  	}
+
+  	.header-informe-compras-nav li a:hover {
+
+  		background-color:#AACFCF;
+
+  }
+
+    iframe {
+
+      display:block;
+      align-content:center;
+      width:80%;
+      height:750px;
+      margin-left:150px;
+      margin-top:75px;
+      border:1px solid;
+
+    }
+
+      #cerrarSesion {
+          color:#fff;
+          text-decoration:none;
+      }
+
+      .contenido {
+        display:inline-block;
+        width:600px;
+      }
+
+     #crud_gral {
+
+      position:absolute;
+      top: 40px;
+      padding-left: 10%;
+      font-size: 16px;
+
+     }
+
+     #muestraContador {
+
+      position:absolute;
+      top: 700px;
+      padding-left: 25%;
+      font-size: 16px;
+
+     }
+
+     .btn:focus {
+      outline:0 !important;
+     }
+
+    #wrapper {
+
+      position:absolute;
+      top:100px;
+      padding-left:10%;
+      font-size:16px;
+    }
+
+    label {
+
+      display : inline-block;
+      float:left;
+      clear:left;
+      width:180px;
+      text-align: right;
+
+     }
+
+     .etiquetas {
+
+      display: inline-block;
+      clear:left;
+      width:35px;
+
+     } 
+
+    
+     div#overlay{
+      display:none;
+      z-index: 999;
+      background: #000;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top:0px;
+      left:0px;
+      text-align: center;
+     }
+
+     div#nuevaVentana {
+      display: none;
+      position:relative;
+      z-index: 9999;
+      margin: -10px auto 0px auto;
+      width: 500px;
+      height: 300px;
+      background: #fff;
+      color: #000;
+      border: 4px solid #cccccc;
+      animation:movercaja .5s ease-out forwards;
+
+     }
+
+
+      div#nuevaVentanaConsulta {
+      display: none;
+      position:relative;
+      z-index: 9999;
+      margin: -10px auto 0px auto;
+      width: 500px;
+      height: 300px;
+      background: #fff;
+      color: #000;
+      border: 4px solid #cccccc;
+      animation:movercaja .5s ease-out forwards;
+
+     }
+
+
+  div#ventanaCuentas {
+      display: none;
+      position:relative;
+      z-index: 9999;
+      margin: -10px auto 0px auto;
+      width: 500px;
+      height: 300px;
+      background: #fff;
+      color: #000;
+      border: 4px solid #cccccc;
+      animation:movercaja .5s ease-out forwards;
+
+     }
+
+
+
+     .botones {
+
+        background-color:#679B9B;
+     }
+
+      #botonCerrar{
+        float: right;
+        position: relative;
+        margin-top:-15px;
+        margin-right:-15px;
+        cursor:pointer;
+        color: #AACFCF;
+        border-radius: 50px;
+        background: #FFF;
+        font-size: 30px;
+        font-weight: bold;
+        display :inline-block;
+        line-height: 0px;
+        padding: 15px 5px;
+      }
+
+      #botonCerrar:before {
+        content: "";
+      }
+
+      #box-header{
+        width: 100%;
+        height:12%;
+        color:#fff;
+        background: #679B9B;
+        padding: -20px;
+        text-align: center;
+        font-family: arial;
+        font-size: 20px;
+        padding: 5px;
+        position: absolute;
+
+      }
+
+      #feedback {
+
+        position:relative;
+        margin-left:150px;
+
+      }
+
+    .primeralinea{
+      background-color:pink;
+      display:block;
+    }
+
+    
+    form fieldset {
+      margin-left:1%;
+      float:left;
+    }
+
+    #tercerfield {
+      margin-top:1%;
+       clear:left;  
+    }
+
+    #cuartofield {
+      margin-left:1%;
+      float:left;
+    } 
+       #fieldsetespacio {
+      margin-top:1%;
+       clear:left;  
+    }
+ 
+
+
+  
+
+@keyframes mymove
+{
+  from {top:-10px; opacity: 1;}
+    to {top:40px; opacity: 1;}
+}
+
+@-webkit-keyframes movercaja {
+    from {top:10px; opacity: 1;}
+    to {top:40px; opacity: 1;}
+}
+
